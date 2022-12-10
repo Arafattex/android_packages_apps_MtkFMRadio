@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifeq ($(BOARD_HAS_MTK_HARDWARE),true)
+
 
 LOCAL_PATH:= $(call my-dir)
 
@@ -61,5 +61,3 @@ LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
-
-endif
